@@ -1,0 +1,17 @@
+{
+  "name": "Fraud Detection with PyOD AutoEncoder",
+  "version": "1.0.0",
+  "description": "Detecting credit card fraud using an AutoEncoder model from PyOD.",
+  "main": "main.py",
+  "data": "creditcard.csv",
+  "outputs": [
+    "metrics.txt",
+    "ae_pr_curve.png",
+    "ae_roc_curve.png",
+    "ae_score_hist.png",
+    "ae_score_hist_topk.png"
+  ],
+  "requirements": "requirements.txt",
+  "author": "Sandesh Shrestha",
+  "license": "MIT"
+}
